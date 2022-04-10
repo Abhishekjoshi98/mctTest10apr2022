@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <script src="script.js" defer></script>
+
+    <!-- navigation bar -->
+    <nav class="flex_container">
+        <div class="flex_container">
+          <img src="logo.png" alt="Logo" class="logo" />
+          <h1>GetWheather</h1>
+        </div>
+
+        <div>
+          <input type="text" class="input" placeholder="search for your city">&emsp;
+          <input type="button" class="anchor_btn" value="Search" onclick="setQuery();">
+        </div>
+      </nav>
+
+      <section class="main section_container">
+        
+        <img src="bg.jpg" alt="Main Image" />
+          <div class="text">
+               <h2>Wheather Station
+            <br />
+            <br />
+            get wheather reports 
+            <br />
+            for your location</h2>
+            </div>
+
+
+            <div class="data">
+                <div class="weather loading">
+                  <h3 class="city">wheather status</h3>
+                  <h3 class="temp"></h3>
+                  <div class="flex">
+                    <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                    <div class="date"></div>
+                  </div>
+                  <div class="current"></div>
+                </div>
+              </div>
+            
+      </section>
+    
+      <section class="features flex_container">
+        <div class="card">
+          <h1>Free</h1>
+          <p>This is a completely free to use Website. We do not show any ads or we do not have any paid membership.</p>
+        </div>
+        <div class="card">
+          <h1>Historical Data</h1>
+          <p>We show historical data of Wheather status as per you search. That can be selected from 7days to month and more.</p>
+        </div>
+        <div class="card">
+          <h1>Geographic locations</h1>
+          <p>We show the data of many popular Countries by locations and even have a search functionality for a smoother User Experience.</p>
+        </div>
+      </section>
+
+      <footer>
+        <i class="fa-brands fa-facebook-f"></i>
+        &emsp;
+        <i class="fa-brands fa-instagram"></i>
+        &emsp;
+        <i class="fa-brands fa-twitter"></i>
+        &emsp;
+        <i class="fa-brands fa-linkedin-in"></i>
+  
+        <h3>Copyright &copy;Geekster Student</h3>
+      </footer>
+</body>
+</html>
+
